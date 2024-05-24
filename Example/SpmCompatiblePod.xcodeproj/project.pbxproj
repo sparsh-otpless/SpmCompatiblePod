@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		1CCF6F466A6DB5589E4C0A97 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		2BFB9B48B779EAC9CF2B1CCF /* SpmCompatiblePod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SpmCompatiblePod.podspec; path = ../SpmCompatiblePod.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2BFB9B48B779EAC9CF2B1CCF /* SpmCompatiblePod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SpmCompatiblePod.podspec; path = ../SpmCompatiblePod.podspec; sourceTree = "<group>"; };
 		454A9A24BC73AE53FB1D92B5 /* Pods-SpmCompatiblePod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpmCompatiblePod_Example.release.xcconfig"; path = "Target Support Files/Pods-SpmCompatiblePod_Example/Pods-SpmCompatiblePod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		51CAC11E6EB94081B8CA0BEA /* Pods-SpmCompatiblePod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpmCompatiblePod_Example.debug.xcconfig"; path = "Target Support Files/Pods-SpmCompatiblePod_Example/Pods-SpmCompatiblePod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SpmCompatiblePod_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpmCompatiblePod_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };

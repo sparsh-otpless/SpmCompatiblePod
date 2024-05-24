@@ -1,5 +1,5 @@
 @objc public class FirstClass: NSObject {
-    func greet() {
+    public func greet() {
         for i in 0...10 {
             print("Hello \(i)")
         }
