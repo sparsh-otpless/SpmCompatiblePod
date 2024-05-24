@@ -49,6 +49,7 @@
 		45C5C96D2C6875D8E1AFDA09962F9D7D /* SpmCompatiblePod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SpmCompatiblePod-umbrella.h"; sourceTree = "<group>"; };
 		4E99D38D9A7A1C02C000F916EE658031 /* Pods-SpmCompatiblePod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpmCompatiblePod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		4F8EFC71A02D4832B657AF28BE73CB82 /* Pods-SpmCompatiblePod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpmCompatiblePod_Example.release.xcconfig"; sourceTree = "<group>"; };
+		54936EAB2C0098FA00595F6B /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		5AAABD428B99D6821BABBCFA168E566C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		82E70E15D1EC5A4731819EB95811680C /* Pods-SpmCompatiblePod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SpmCompatiblePod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -111,6 +112,7 @@
 		275948B155BD9388A8D0FC795EDDB482 /* SpmCompatiblePod */ = {
 			isa = PBXGroup;
 			children = (
+				54936EAB2C0098FA00595F6B /* Package.swift */,
 				BA6F44B0C60402CA687D5614810FBC1F /* FirstClass.swift */,
 				80E56B0C60AFF9FE1901118B621300FD /* Pod */,
 				B1B1758C9ED76151BAD2A884F04428C6 /* Support Files */,
