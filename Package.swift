@@ -1,33 +1,25 @@
-//
-//  Packages.swift
-//  SpmCompatiblePod
-//
-//  Created by Sparsh on 24/05/24.
-//
+// swift-tools-version: 5.9
+// The swift-tools-version declares the minimum version of Swift required to build this package.
 
-// swift-tools-version:5.3
 import PackageDescription
 
 let package = Package(
     name: "SpmCompatiblePod",
-    platforms: [
-        .iOS(.v10)
-    ],
     products: [
+        // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "SpmCompatiblePod",
-            targets: ["SpmCompatiblePod"]
-        ),
+            targets: ["SpmCompatiblePod"]),
     ],
     targets: [
+        // Targets are the basic building blocks of a package, defining a module or a test suite.
+        // Targets can depend on other targets in this package and products from dependencies.
         .target(
             name: "SpmCompatiblePod",
-            path: "SpmCompatiblePod/Classes"
+            path: "SpmCompatiblePod/Sources/"
         ),
         .testTarget(
             name: "SpmCompatiblePodTests",
-            dependencies: ["SpmCompatiblePod"],
-            path: "Tests"
-        ),
+            dependencies: ["SpmCompatiblePod"]),
     ]
 )
