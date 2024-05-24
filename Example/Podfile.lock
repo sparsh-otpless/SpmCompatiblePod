@@ -1,0 +1,16 @@
+PODS:
+  - SpmCompatiblePod (0.1.0)
+
+DEPENDENCIES:
+  - SpmCompatiblePod (from `../`)
+
+EXTERNAL SOURCES:
+  SpmCompatiblePod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SpmCompatiblePod: b2b940522234ed4ea8f4db9e4c50ba0d24ac7fb8
+
+PODFILE CHECKSUM: 03e18cec23052c6eb4948f62f4a5b0fe8ada99ac
+
+COCOAPODS: 1.13.0

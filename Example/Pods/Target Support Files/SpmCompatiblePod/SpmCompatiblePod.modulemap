@@ -1,0 +1,6 @@
+framework module SpmCompatiblePod {
+  umbrella header "SpmCompatiblePod-umbrella.h"
+
+  export *
+  module * { export * }
+}
