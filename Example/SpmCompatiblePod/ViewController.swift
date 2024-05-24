@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SpmCompatiblePod
 
 class ViewController: UIViewController {
 
