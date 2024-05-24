@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SpmCompatiblePod'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of SpmCompatiblePod.'
 
 # This description is used to generate tags and improve search results.
@@ -31,6 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'SpmCompatiblePod/Classes/**/*'
+  s.swift_versions = ['4.0', '4.1', '4.2', '5.0', '5.1', '5.2', '5.3', '5.4', '5.5']
   
   # s.resource_bundles = {
   #   'SpmCompatiblePod' => ['SpmCompatiblePod/Assets/*.png']
