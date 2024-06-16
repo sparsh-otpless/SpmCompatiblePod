@@ -18,7 +18,8 @@ let package = Package(
         ),
         .target(
             name: "SpmCompatiblePodObjc",
-            path: "SpmCompatiblePod/Classes/SpmCompatiblePodObjc"
+            path: "SpmCompatiblePod/Classes/SpmCompatiblePodObjc",
+            publicHeadersPath: "include"
         )
     ]
 )

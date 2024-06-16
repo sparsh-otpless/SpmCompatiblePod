@@ -1,5 +1,5 @@
 PODS:
-  - SpmCompatiblePod (0.1.5)
+  - SpmCompatiblePod (0.1.6)
 
 DEPENDENCIES:
   - SpmCompatiblePod (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SpmCompatiblePod: bbf2a137ddaaafc762d3dfb73b2b9429b36aa16f
+  SpmCompatiblePod: 4f23016ae193c8be2b3b819d8e4a94e6bd16514b
 
 PODFILE CHECKSUM: 03e18cec23052c6eb4948f62f4a5b0fe8ada99ac
 

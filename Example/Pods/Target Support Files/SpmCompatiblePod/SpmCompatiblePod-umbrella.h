@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "Header.h"
 
 FOUNDATION_EXPORT double SpmCompatiblePodVersionNumber;
 FOUNDATION_EXPORT const unsigned char SpmCompatiblePodVersionString[];
