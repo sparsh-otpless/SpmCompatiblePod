@@ -19,9 +19,6 @@ let package = Package(
         .target(
             name: "SpmCompatiblePodObjc",
             path: "SpmCompatiblePod/Classes/SpmCompatiblePodObjc"
-        ),
-        .testTarget(
-            name: "SpmCompatiblePodTests",
-            dependencies: ["SpmCompatiblePod"]),
+        )
     ]
 )
