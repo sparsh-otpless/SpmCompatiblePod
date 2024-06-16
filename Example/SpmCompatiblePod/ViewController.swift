@@ -16,6 +16,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         let a = FirstClass()
         a.greet()
+        let b = Second()
+        b.greetSecond()
     }
 
     override func didReceiveMemoryWarning() {

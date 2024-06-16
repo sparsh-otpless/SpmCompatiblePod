@@ -9,14 +9,16 @@ let package = Package(
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "SpmCompatiblePod",
-            targets: ["SpmCompatiblePod"]),
+            targets: ["SpmCompatiblePodSwift", "SpmCompatiblePodObjc"]),
     ],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "SpmCompatiblePod",
-            path: "SpmCompatiblePod/Classes/"
+            name: "SpmCompatiblePodSwift",
+            path: "SpmCompatiblePod/Classes/SpmCompatiblePodSwift"
+        ),
+        .target(
+            name: "SpmCompatiblePodObjc",
+            path: "SpmCompatiblePod/Classes/SpmCompatiblePodObjc"
         ),
         .testTarget(
             name: "SpmCompatiblePodTests",
